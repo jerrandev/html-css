@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de responsividade</title>
+
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 280px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* .image_full{
+        display:block;
+        width: 100%;
+        }
+
+        .image_mobile{
+        display:none;
+        width: 80%;
+        margin: auto;
+        }
+
+        @media (max-width: 640px) and (min-width: 320px){
+        .image_full{
+        display:none;
+        }
+
+        .image_mobile{
+        display:block;
+        }
+        } */
+
+        .irina {
+            width: 100%;
+            margin: auto;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore debitis officiis velit, accusamus molestiae nihil sunt autem eos. Blanditiis debitis sunt unde, similique ipsam ducimus officiis perferendis nulla tenetur accusamus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quia. Doloribus ea libero aut magnam, harum minima voluptatibus nostrum quia quos sit, distinctio repellat corporis dicta illum excepturi est quisquam?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores nulla praesentium sunt non consequatur, aspernatur sint id. Illum culpa est, perferendis, tempore exercitationem soluta eius aliquid perspiciatis quibusdam aliquam quidem.</p>
+
+        <picture>
+            <source media="(max-width:600px)" srcset="imagens\irina-blok-pq.jpg" class="irina">
+            <img src="imagens/irina-blok.jpg" alt="irina-blok" class="irina">
+        </picture>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores nulla praesentium sunt non consequatur, aspernatur sint id. Illum culpa est, perferendis, tempore exercitationem soluta eius aliquid perspiciatis quibusdam aliquam quidem.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur corrupti inventore, porro adipisci at est impedit sint voluptates architecto reprehenderit similique nemo odio placeat provident dolores enim? Velit, commodi cumque?
+        </p>
+    </main>
+</body>
+</html>

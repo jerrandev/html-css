@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #84e1ad;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-image: linear-gradient(to bottom, #3DDA84, #154C2E);
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+        
+}
+
+header > h1 {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0%;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.486);
+    
+}
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    width: auto;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.486);
+    
+    }
+    header > nav{
+        padding: 10px;
+    }
+header > nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    padding: 0px 15px 10px;
+    margin-bottom: 10px;
+    
+        }
+
+header > nav > a:hover {
+    color:#3DDA84
+}
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0px 130px;
+    padding: 20px;
+    box-shadow: 0 0px 13px 7px rgba(0, 0, 0, 0.404);
+   }
+main > h2 {
+    background-image: linear-gradient(to right, #83f1b5, #ffffff);
+    font-family: 'idroid';
+    color: #154C2E;
+    
+}
+main > p {
+    text-indent: 30px;
+    text-align: justify;
+    
+    
+}
+
+.video{ 
+    background-color: #154C2E;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.ytvideo {
+    margin: auto;
+    
+}
+
+.extra { 
+    background-color: #c5ebd6;
+    margin: 20px;
+    border: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.extra > h3 { 
+    color: white;
+    background-color: #2fa866;
+    border: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px;
+
+}
+.extra > p {
+    text-align: justify;
+    padding: 10px;
+    margin: 0px;
+}
+
+footer {
+    background-color: #154C2E;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+    
+
+img.logodroid { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.image_full{
+    display:block;
+    margin: auto;
+   }
+ 
+  .image_mobile{
+   display:none;
+   margin: auto;
+  }
+ 
+ @media (max-width: 1200px) {
+   .image_full{
+    display:none;
+    
+   }
+ 
+   .image_mobile{
+    display:block;
+   }
+ }
