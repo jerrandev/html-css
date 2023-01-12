@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+main {
+    background-color: #3FAF82;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}
+.one {
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    
+
+}
+
+.one::before {
+    content: "";
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    position: absolute;
+    top: 90px;
+
+}
